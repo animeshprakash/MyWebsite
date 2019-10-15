@@ -1,0 +1,147 @@
+body{
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+    background-color: #253336;
+}
+#alert{
+    margin-bottom: 0px;
+}
+#head{
+  z-index: 3;
+}
+.text{
+	color: whitesmoke;
+	font-family: 'Muli', sans-serif;
+	/*font-family: 'Nanum Myeongjo', serif;
+	font-family: 'Poppins', sans-serif;*/
+}
+.shadow{
+	text-shadow: 2px 2px 40px #000000;
+}
+.color{
+	color: white!important;
+}
+a{
+	color: white!important;
+}
+
+.theme{
+	color: #9e0610!important;
+}
+.profile{
+	border: 2px solid #0476CC;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+section{
+	padding:0px;
+	margin:0px;
+}
+.jumbotron{
+	margin-bottom: 0px!important;
+}
+.jumbotron-background{
+	background-image: url(JumbotronImgIslamicArt.jpg);
+    background-position: 40% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.jumbotron-fluid{
+	height: 850px;
+}
+#welcome{
+	margin-top: 130px;
+}
+.select{
+	background-color: darkslategrey;
+	color:white;
+}
+.active{
+    border-radius: 0px!important;
+}
+
+.white{
+   color:white;
+}
+.tag{
+    color: #b7a06c;
+    font-family: 'Nanum Myeongjo', serif; 
+    margin: 30px;
+    
+}
+#hithr{
+    margin-top: 60px;
+}
+#who{
+    background-color: rgb(34,48,51);
+}
+.graphicsw{
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    filter: invert(100%);
+    margin-bottom: 30px;
+}
+#group{
+    margin-top: 30px;
+}
+#photoimg{
+    margin-top: 100px;
+    width: 225px;
+    height: 150px;
+    padding-left: 25px;
+}
+#where{
+    background-image: url(where.jpg);
+    background-position: 50% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 1000px;
+}
+section{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.gap{
+    background-color: rgb(34,48,51);
+}
+section{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#photo {
+    align-content: center;
+    margin-left: 140px;
+    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#where{
+    text-align: center;
+}
+.main-canvas{
+    padding: 200px;
+    background-color: aqua;
+}
+.social-icon{
+   font-size:5em;
+}
+.display-none{
+    display: none;
+    position: fixed;
+}
+.col-offset-right-1 {
+    margin-right: 9%;
+  }
+.alert{
+    border-radius: 0px!important;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #photo{
+        padding-right: 100px;
+    }
+}
